@@ -1,4 +1,5 @@
-# angular2-docker-hello-world
+# angular2-docker-hello-world - This example was copied from scottnakada
+
 This git repository contains an Angular 2 Sample Hello World application.
 It can be started within a docker container.
 
@@ -8,7 +9,7 @@ https://www.docker.com/products/docker
 
 To clone this repository:
 
-	git clone https://github.com/scottnakada/angular2-docker-hello-world.git
+	git clone https://github.com/Shrubberer/angular2-docker-hello-world.git
 	
 To build this docker container:
 
@@ -17,7 +18,7 @@ To build this docker container:
 
 To start the docker container, use:
 
-	docker run -it -p 3000:3000 -p 3001:3001 --name angular2-hello angular2-hello
+	docker run -it -p 3000:3000 -p 3001:3001 --name angular2-hello sellism/angular2-hello
 
 To view the web-page, open your browser at http://localhost:3000
 
